@@ -1,2 +1,3 @@
 # notifielder
-Script to handle desktop notifications
+
+Python script that catches desktop notifications and let you handling them as you see fit.
