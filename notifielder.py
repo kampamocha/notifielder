@@ -28,9 +28,9 @@ def notifications(bus, message):
         song = args_list[3]
         print(song)
 
-        #print("SENDING MESSAGE TO CHANNEL")
-        #response = slack.send_message(f':headphones: {song}')
-        #print(response['ok'])
+        print("SENDING MESSAGE TO CHANNEL")
+        response = slack.send_message(f':headphones: {song}')
+        print(response['ok'])
 
         print("CHANGING STATUS ON SLACK")
         profile = {
